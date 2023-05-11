@@ -149,7 +149,7 @@ st.markdown(
             )
         )(
             h2(style=styles(font_size=rem(2), font_weight=600, padding=0))(title),
-           big(style=styles(font_size=rem(4), font_weight=600, line_height=1.5))(
+           big(style=styles(font_size=rem(3.6), font_weight=600, line_height=1.5))(
                 value
             ),
         ),
