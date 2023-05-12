@@ -86,7 +86,7 @@ elif composto == 'Diclorometano':
     pressao = antoine(a,b,c,t)
 
 elif composto == 'Etanol':
-    t = st.slider('Selecione a temperatura (K):', 270, 320, 369)
+    t = st.slider('Selecione a temperatura (K):', 270, 369, 320)
     a, b, c = 18.9119, 3803.98, -41.68
     pressao = antoine(a,b,c,t)
 
